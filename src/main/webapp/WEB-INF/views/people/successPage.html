@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success Page</title>
+</head>
+<body>
+
+  <p th:text="'Person ' + ${person.getName()} + ' ' +  ${person.getId()} + ' successfully created'"></p>
+  <a th:href="@{/people}">see all people</a>
+
+
+</body>
+</html>
